@@ -1,14 +1,14 @@
 /* function countChar(str) {
-  // turn string to an array
+    / turn string to an array
   let strArr = str.split('')
   let strCount = {}
-  // map through each character and add character 
+    / map through each character and add character 
   for (let i = 0; i < strArr.length; i++) {
-    // increment by 1 if property exists
+      / increment by 1 if property exists
     if (strCount.hasOwnProperty(strArr[i])) {
         strCount[strArr[i]] += 1
     } else {
-        // add property and set to 1
+          / add property and set to 1
         strCount[strArr[i]] = 1
     }
   }
