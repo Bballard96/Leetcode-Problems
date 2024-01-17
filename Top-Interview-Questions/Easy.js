@@ -124,7 +124,9 @@ var twoSum = function(nums, target) {
     let answerArr = []
     // write first for loop
     for (let i = 0; i < nums.length; i++) {
+      // write nested for loop 
         for ( let j = i + 1; j < nums.length; j++) {
+          // create if statement
             if (nums[i] + nums[j] === target) {
                 answerArr.push(i)
                 answerArr.push(j)
