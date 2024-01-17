@@ -120,6 +120,7 @@ Output: [0,1]
 */
 
 var twoSum = function(nums, target) {
+  // create empty array variable
     let answerArr = []
     for (let i = 0; i < nums.length; i++) {
         for ( let j = i + 1; j < nums.length; j++) {
