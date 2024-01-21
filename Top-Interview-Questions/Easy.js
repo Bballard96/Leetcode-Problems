@@ -170,7 +170,11 @@ Thus, the result should be [1,0].
 */
 
 var plusOne = function(digits) {
-    // find largest integer
-    // increment LI by one
-    // cover how if integer is double digit it turns into 2 integers
+    // Convert array to BigInt
+    let answer = BigInt(digits.join(''));  
+    // Increment BigInt by 1
+    answer += 1n;  
+    // Convert BigInt to array of numbers
+    let myArr = Array.from(String(answer), Number);  
+    return myArr;
 };
