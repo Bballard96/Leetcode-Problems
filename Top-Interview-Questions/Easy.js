@@ -172,4 +172,5 @@ Thus, the result should be [1,0].
 var plusOne = function(digits) {
     // find largest integer
     // increment LI by one
+    // cover how if integer is double digit it turns into 2 integers
 };
