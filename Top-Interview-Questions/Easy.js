@@ -141,6 +141,7 @@ var twoSum = function(nums, target) {
 
 /* 
                             PLUS ONE 
+                            (Finished)
 You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 
 
@@ -183,3 +184,15 @@ var plusOne = function(digits) {
 
 
 /*   Move Zeroes */
+
+
+
+
+
+                                      /* Merge Sorted Array */
+                                /* (Unfinished) started on 03/03/2024 */
+/* You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n */
